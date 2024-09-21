@@ -24,3 +24,58 @@ aside {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
+/* Style for the header */
+header {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px; /* Padding around the header */
+    color: white; /* Text color */
+}
+
+/* Style for the logo */
+.logo {
+    font-size: 3em; /* Make the logo bigger */
+    margin-right: 10px; /* Space between logo and other items */
+}
+
+/* Style for the navigation list */
+header ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+/* Style for the list items */
+header li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+/* Style for the main content */
+main {
+    background-color: #f4f4f4; /* Light gray background for main */
+    padding: 20px; /* Padding around main content */
+}
+
+/* Style for article */
+article {
+    background-color: white; /* White background for article */
+    padding: 15px; /* Padding inside article */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for aside */
+aside {
+    background-color: #e9e9e9; /* Slightly darker gray for aside */
+    padding: 15px; /* Padding inside aside */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for footer */
+footer {
+    background-color: #4CAF50; /* Same green as header */
+    color: white; /* White text */
+    text-align: center; /* Center align footer text */
+    padding: 10px; /* Padding around footer */
+}
