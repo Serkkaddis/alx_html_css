@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Use full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Make main a flex container and arrange its children in a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow main to take available space */
+}
+
+/* Article takes 2/3 of the width */
+article {
+    flex: 2; /* Takes 2 boxes */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Aside takes 1/3 of the width */
+aside {
+    flex: 1; /* Takes 1 box */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
