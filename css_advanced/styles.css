@@ -109,7 +109,7 @@ nav ul li a {
 
 .pros {
     margin: 0px; /* Space around each item */
-    font-family: 'Source Sans Pro', helvetica, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro';
     color: white;
     text-align: center; /* Center text within each item */
     width: 20%;
@@ -120,5 +120,41 @@ nav ul li a {
         border-width: 5px; /* Existing border style */
         border-radius: 10px; /* Optional: Add rounded corners */
     }
+
+   .testimony{
+    background-color: #C271FF;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-direction: row; /* Stack items horizontally */
+    height: 392px; /* Full viewport height (or a specific height) */
+       }
+
+   .blockquotes blockquote{
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    width: 730px;
+    font-weight: normal;
+       }
+    .blockquotes h3 {
+        color: white;
+        font-family: 'Source Sans Pro';
+        font-size: 22px;
+        width: 730px;
+        font-weight: bold;
+        margin-left: 39px;
+        margin-bottom: 5px;
+           }
+
+    .blockquotes p {
+            color: white;
+            font-family: 'Source Sans Pro';
+            font-size: 22px;
+            font-weight: lighter;
+            margin-left: 39px;
+            margin-top: 5px;
+        }     
+   
 
    
