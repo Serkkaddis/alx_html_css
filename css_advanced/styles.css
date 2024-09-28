@@ -325,3 +325,92 @@ color: #071629;
     cursor: pointer;
     border-radius: 22px;
 }
+.faq-sec {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    margin-top: 0;
+}
+
+.faq-sec h2 {
+    color: #071629;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 20px; 
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 60px; 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.faq-item {
+    flex: 0 0 calc(50% - 30px); /* Two columns with adjusted width */
+    box-sizing: border-box; 
+    text-align: left;  
+}
+
+.faq-item h3 {
+    font-size: 16px;
+    color: #071629;  
+    font-weight: bold;
+    margin: 0; /* Added to reset margin */
+    padding: 20px 0; /* Combined padding */
+}
+
+.faq-body {
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5); 
+    max-width: 350px; 
+    margin-bottom: 70px;
+    margin-top: 35px;
+}
+
+footer {
+    background-color: #071629; /* Change to your desired footer color */
+    color: white; /* Adjust text color */
+    height: 249px; /* Set footer height */
+    overflow: hidden;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items horizontally */
+    height: 100%; /* Full height */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    padding-top: 93px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-logo {
+    max-height: 30px; /* Adjust logo size */
+    max-width: 169px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+        }
+
+.footer-container p {
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    color: rgba(90, 90, 90, 0.3517);
+    text-align: center; 
+    margin-bottom: 39px; 
+}
