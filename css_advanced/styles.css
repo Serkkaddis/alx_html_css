@@ -162,6 +162,7 @@ nav ul li a {
     font-size: 32px;
     text-align: center;
     font-weight: lighter;
+    margin-top: 5%;
     }
 .videos strong{
     font-family:'Source Sans Pro' ;
@@ -194,6 +195,7 @@ nav ul li a {
     gap: 20px; /* Add space between items */
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .video-container > div {
@@ -254,4 +256,72 @@ color: #071629;
     font-family: 'Source Sans Pro';
     font-size: 14px;
     opacity: 100%;
+}
+
+.membership{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    background-color: #071629;
+    height: 502px;
+    font-family: 'Source Sans Pro';
+    
+}
+.membership strong{
+    font-family:'Source Sans Pro' ;
+    color:#C271FF;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+.membership  h2{
+    font-family:'Source Sans Pro' ;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight:lighter;
+    padding-bottom: 30px;
+  }
+
+.member-package {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start; /* Align items at the start */
+    flex-wrap: wrap; /* Allow wrapping if the viewport is too small */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.member-package-1 {
+    flex: 0 0 221px;
+    min-height: 153px;
+    text-align: center; 
+    margin: 20px;
+}
+
+.member-package-1 h3{
+    font-family:'Source Sans Pro' ;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+        }
+.member-package p{
+    font-family:'Source Sans Pro' ;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+.membership button{
+    margin-top: 40px; 
+    padding: 14px 20px;
+    background-color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 22px;
 }
