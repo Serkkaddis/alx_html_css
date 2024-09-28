@@ -114,14 +114,14 @@ nav ul li a {
     text-align: center; /* Center text within each item */
     width: 20%;
     }
-    .pros img {
+.pros img {
         width: 50%; /* Set the width to 100% of the parent container */
         height: auto; /* Maintain the aspect ratio */
         border-width: 5px; /* Existing border style */
         border-radius: 10px; /* Optional: Add rounded corners */
     }
 
-   .testimony{
+.testimony{
     background-color: #C271FF;
     display: flex; /* Enable flexbox */
     justify-content: center; /* Center items horizontally */
@@ -130,14 +130,14 @@ nav ul li a {
     height: 392px; /* Full viewport height (or a specific height) */
        }
 
-   .blockquotes blockquote{
+.blockquotes blockquote{
     color: white;
     font-family: 'Source Sans Pro';
     font-size: 22px;
     width: 730px;
     font-weight: normal;
        }
-    .blockquotes h3 {
+.blockquotes h3 {
         color: white;
         font-family: 'Source Sans Pro';
         font-size: 22px;
@@ -147,7 +147,7 @@ nav ul li a {
         margin-bottom: 5px;
            }
 
-    .blockquotes p {
+.blockquotes p {
             color: white;
             font-family: 'Source Sans Pro';
             font-size: 22px;
@@ -156,5 +156,102 @@ nav ul li a {
             margin-top: 5px;
         }     
    
+.videos h2{
+    font-family:'Source Sans Pro' ;
+    color: #071629;
+    font-size: 32px;
+    text-align: center;
+    font-weight: lighter;
+    }
+.videos strong{
+    font-family:'Source Sans Pro' ;
+    color: #C271FF;
+    }
 
-   
+ .thumbnail-container {
+    position: relative; 
+    display: inline-block; /
+}
+
+.thumbnail {
+    width: 100%; 
+    height: auto; 
+}
+
+.playbutton {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; /* Move to the center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the image dimensions */
+    width: 50px; /* Adjust the size of the play button */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer */
+}
+.video-container {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Add space between items */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.video-container > div {
+    flex: 1; /* Allow the children to grow */
+    margin: 10px; /* Add some spacing */
+    max-width: 300px; /* Optional: Set a maximum width */
+        
+}
+.video-container h3{
+font-family: 'Source Sans Pro';
+font-size: 16px;
+font-weight: bold;
+color: #071629;
+}
+.video-container p{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: black;
+    opacity: 50.16%;
+}
+.author-tag {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 2px; /* Space below the author tag */
+}
+
+.author-tag img {
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Keep aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+    }
+.author-tag h4{
+    color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    }
+
+.star-rating {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    margin-top: 2px;
+}
+
+.star-rating img {
+    height: auto; 
+    margin-right: 5px; 
+}
+
+.rating-container {
+    display: flex; 
+    align-items: center; 
+    margin-top: 0px;
+}
+
+.rating-container p {
+    margin-left: 70px; 
+    color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    opacity: 100%;
+}
