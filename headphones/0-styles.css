@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-image: url('./images/images/headphones_hero_1.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+main {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    gap: 100px;
+    width: 80%;
+}
+
+nav img {
+    height: 40px; 
+     margin-left: 10%;
+    
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 40px; 
+}
+
+nav ul li a {
+    font-family: 'Source Sans Pro';
+    color: white; 
+    text-decoration: none; 
+    font-size: 12px;
+    font-weight:380; 
+}
+
+nav ul li a:hover{
+    color: #FF6565;
+    transition: color 0.3s;
+}
+nav ul li a:active{
+    color: #FF6565;
+}
+
+.landing-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 140px;
+}
+
+.landing-section h1,
+.landing-section h3 {
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.landing-section h1 {
+    font-size: 32px;
+    margin-top: 140px;
+}
+
+.landing-section h3 {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.landing-section button {
+    padding: 14px 20px;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+    
+}
+
+.landing-section button:hover {
+    opacity: 0.9;
+}
+
+
+.blurb p {
+    margin-top: 70px;
+    margin-bottom: 115px;
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    max-width: 607px;
+    font-weight: 300;
+}
+
+.hamburger {
+    display: none; 
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.menu-toggle {
+    display: none; 
+}
+
+@media (max-width: 480px) {
+    .hamburger {
+        display: block; 
+    }
+    nav {
+    justify-content: center; 
+    }
+    
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        width: 90%; 
+        position: absolute; 
+        top: 60px; 
+        left: 0;
+    }
+
+    #menu-toggle:checked + .hamburger + #nav-links {
+        display: flex; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+        text-align: center; 
+    }
+
+    nav img {
+        
+        margin-left: 0;
+    }
+}
