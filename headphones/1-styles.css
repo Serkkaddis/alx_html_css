@@ -247,60 +247,82 @@ nav ul li a:active{
     }
 }
 
-.what-we-do h2{
-    font-family: 'Source Sans Pro';
-    color: #071629;
-    font-size: 32px;
-    text-align: center;
-    font-weight: 500;
-    margin-top: 90px;
+.what-we-do {
+    text-align: center; /* Center text for the section */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.what-we-do h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px; /* Adjust font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
 }
 
 .blurb-1 {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 20px; 
+    margin-bottom: 60px; /* Space between the blurb and services */
 }
 
 .blurb-1 p {
     font-family: 'Source Sans Pro';
     color: #071629;
     font-size: 16px;
-    text-align: center;
     line-height: 26px;
-    max-width: 637px;
-    font-weight: 400;
-    margin: 0; 
+    max-width: 800px; /* Adjust max width for better readability */
+    margin: 0 auto; /* Center the paragraph */
 }
+
 .services {
     display: flex; 
     justify-content: center; 
-    align-items: center; 
-    flex-direction: row; 
-    height:20vh; 
-    margin-bottom: 10%;
-    margin-top: 10%;
-    gap: 60px;
+    align-items: flex-start; 
+    flex-wrap: wrap; /* Allow items to wrap */
+    height: auto; 
+    margin-bottom: 15%;
+    gap: 20px; /* Space between services */
 }
 
 .service {
-    margin: 0px; 
     font-family: 'Source Sans Pro';
     color: #071629;
     text-align: center; 
-    width: 20%;
-    }
-.service h3{
-    padding-bottom: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #071629;
+    width: 23%; /* Width for desktop (adjust as needed) */
+    line-height: 26px; 
+    box-sizing: border-box; /* Ensure padding and margins are included in width */
+}
 
-} 
-.service p{
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 26px;
-  color: #071629;
+.service span {
+    font-size: 40px; /* Adjust icon size */
+    display: block; /* Make icons block elements */
+    margin-bottom: 10px; /* Space between icon and heading */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service {
+        width: calc(50% - 15px); /* Two columns on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        flex-direction: column; /* Stack services vertically */
+        align-items: center; /* Center items */
+    }
+
+    .service {
+        width: 100%; /* Full width for mobile (1 column) */
+        margin-bottom: 20px; /* Space between services */
+    }
+
+    .what-we-do h2 {
+        font-size: 24px; /* Smaller heading on mobile */
+    }
+
+    .blurb-1 p {
+        font-size: 14px; /* Smaller paragraph text */
+    }
+
+    .service span {
+        font-size: 30px; /* Smaller icon on mobile */
+    }
 }
